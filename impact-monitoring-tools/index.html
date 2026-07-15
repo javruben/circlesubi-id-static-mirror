@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitoring | Circles</title>
+<style>
+  html,body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#0b1f1a;color:#fff;display:flex;align-items:center;justify-content:center}
+  .gate{max-width:380px;width:90%;text-align:center;padding:2rem}
+  .gate h1{font-size:1.3rem;margin-bottom:.5rem}
+  .gate p{opacity:.75;font-size:.9rem;margin-bottom:1.5rem}
+  .gate input{width:100%;box-sizing:border-box;padding:.75rem 1rem;border-radius:8px;border:1px solid #3a5c50;background:#12332b;color:#fff;font-size:1rem;margin-bottom:1rem}
+  .gate button{width:100%;padding:.75rem 1rem;border-radius:8px;border:none;background:#3ecf8e;color:#04241b;font-weight:600;font-size:1rem;cursor:pointer}
+  .gate button:hover{background:#31b87b}
+  .gate .err{color:#ff8a8a;font-size:.85rem;min-height:1.2em;margin-top:.75rem}
+  .gate .loading{opacity:.6;font-size:.85rem;margin-top:.75rem}
+</style>
+</head>
+<body>
+<div class="gate" id="gate-form">
+  <h1>Password protected</h1>
+  <p>This section of circlesubi.id requires a password to view.</p>
+  <input type="password" id="gate-pw" placeholder="Password" autofocus>
+  <button id="gate-submit">Unlock</button>
+  <div class="err" id="gate-err"></div>
+</div>
+<script>
+(function() {
+  var GATE_HASH = "ae1dfecd103193d987852eb153841bb0dcad3f2f14b4a11f3cb39cffb30b0b3d";
+  var form = document.getElementById('gate-form');
+  var pw = document.getElementById('gate-pw');
+  var btn = document.getElementById('gate-submit');
+  var err = document.getElementById('gate-err');
+
+  async function sha256Hex(str) {
+    var buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(function(b) { return b.toString(16).padStart(2, '0'); }).join('');
+  }
+
+  async function attempt() {
+    var val = pw.value;
+    if (!val) return;
+    var hash = await sha256Hex(val);
+    if (hash !== GATE_HASH) {
+      err.textContent = 'Incorrect password.';
+      pw.value = '';
+      pw.focus();
+      return;
+    }
+    err.textContent = '';
+    err.className = 'loading';
+    err.textContent = 'Loading...';
+    try {
+      var res = await fetch('content.json');
+      var html = await res.json();
+      document.open();
+      document.write(html);
+      document.close();
+    } catch (e) {
+      err.className = 'err';
+      err.textContent = 'Failed to load content. Please try again.';
+    }
+  }
+
+  btn.addEventListener('click', attempt);
+  pw.addEventListener('keydown', function(e) { if (e.key === 'Enter') attempt(); });
+})();
+</script>
+</body>
+</html>
