@@ -51,11 +51,8 @@
     err.className = 'loading';
     err.textContent = 'Loading...';
     try {
-      var res = await fetch('content.json');
-      var html = await res.json();
-      document.open();
-      document.write(html);
-      document.close();
+      var file = screen.width <= 750 ? 'content-mobile.html' : 'content.html';
+      location.replace(file);
     } catch (e) {
       err.className = 'err';
       err.textContent = 'Failed to load content. Please try again.';
