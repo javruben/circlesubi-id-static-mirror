@@ -1023,7 +1023,7 @@ nav#TINY_MENU.menu-open button[data-testid="tinymenu-menubutton"]{
         <path d="M235.39 46.65c-.44 0-.8-.36-.8-.8V32.46c0-.44.36-.8.8-.8h2.27c2.67 0 3.92 1.51 3.92 4.4v6.19c0 2.89-1.25 4.4-3.92 4.4h-2.27Zm1.4-12.79v10.59h.87c1.18 0 1.67-.71 1.67-2.2v-6.19c0-1.49-.49-2.2-1.67-2.2h-.87Z" fill="#666666"></path>
     </g>
 </svg>
-</div></a></div><!--/$--><!--$--><div id="comp-lec83j5p" class="xDaLqh kyRJB9 comp-lec83j5p" data-testid="language-selector-container"><div class="Q0JjLQ"><div class="CjkVyx kyRJB9 wixui-language-menu" data-testid="languages-container" aria-label="Language Selector: Indonesian" role="group"><button aria-label="English" aria-current="false" class="wixui-language-menu__option"><div class="z6NAhm"><img src="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/GBR.png" srcset="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/GBR.png, https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/GBR_2x.png 2x" alt="English"></div></button><button aria-label="Indonesian" aria-current="true" tabindex="-1" class="wixui-language-menu__option nOw6jW"><div class="z6NAhm"><img src="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/IDN.png" srcset="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/IDN.png, https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/IDN_2x.png 2x" alt="Indonesian"></div></button></div></div></div><!--/$--><!--$--><div id="comp-le5cjxfy1" class="comp-le5cjxfy1" data-semantic-classname="button"><a data-testid="linkElement" href="https://www.circlesubi.id/id/circles-research-faq" target="_self" class="StylableButton2545352419__root style-lecn7byx__root wixui-button StylableButton2545352419__link" aria-label="MASUK"><span class="StylableButton2545352419__container"><span class="StylableButton2545352419__label wixui-button__label" data-testid="stylablebutton-label">MASUK</span><span class="StylableButton2545352419__icon wixui-button__icon" aria-hidden="true" data-testid="stylablebutton-icon"><span><svg data-bbox="13.05 2.55 33.878 54.8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+</div></a></div><!--/$--><!--$--><div id="comp-lec83j5p" class="xDaLqh kyRJB9 comp-lec83j5p" data-testid="language-selector-container"><div class="Q0JjLQ"><div class="CjkVyx kyRJB9 wixui-language-menu" data-testid="languages-container" aria-label="Language Selector: Indonesian" role="group"><button data-lang-href="../../../../post/how-it-all-began-community-consultation-research-in-2021-22/m/" aria-label="English" aria-current="false" class="wixui-language-menu__option"><div class="z6NAhm"><img src="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/GBR.png" srcset="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/GBR.png, https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/GBR_2x.png 2x" alt="English"></div></button><button data-lang-href="../m/" aria-label="Indonesian" aria-current="true" tabindex="-1" class="wixui-language-menu__option nOw6jW"><div class="z6NAhm"><img src="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/IDN.png" srcset="https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/IDN.png, https://static.parastorage.com/services/linguist-flags/1.1005.0/assets/flags/round/IDN_2x.png 2x" alt="Indonesian"></div></button></div></div></div><!--/$--><!--$--><div id="comp-le5cjxfy1" class="comp-le5cjxfy1" data-semantic-classname="button"><a data-testid="linkElement" href="../../../circles-research-faq/" target="_self" class="StylableButton2545352419__root style-lecn7byx__root wixui-button StylableButton2545352419__link" aria-label="MASUK"><span class="StylableButton2545352419__container"><span class="StylableButton2545352419__label wixui-button__label" data-testid="stylablebutton-label">MASUK</span><span class="StylableButton2545352419__icon wixui-button__icon" aria-hidden="true" data-testid="stylablebutton-icon"><span><svg data-bbox="13.05 2.55 33.878 54.8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
     <g>
         <path d="M46.5 28.9L20.6 3c-.6-.6-1.6-.6-2.2 0l-4.8 4.8c-.6.6-.6 1.6 0 2.2l19.8 20-19.9 19.9c-.6.6-.6 1.6 0 2.2l4.8 4.8c.6.6 1.6.6 2.2 0l21-21 4.8-4.8c.8-.6.8-1.6.2-2.2z"></path>
     </g>
@@ -1192,6 +1192,16 @@ nav#TINY_MENU.menu-open button[data-testid="tinymenu-menubutton"]{
     var open = nav.classList.contains('menu-open');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     list.setAttribute('aria-hidden', open ? 'false' : 'true');
+  });
+})();
+</script><script>
+/* language switcher: Wix drives these buttons with JS that the mirror strips,
+   so re-attach the navigation from the destination baked in by the build. */
+(function () {
+  document.querySelectorAll('[data-lang-href]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      window.location.href = b.getAttribute('data-lang-href');
+    });
   });
 })();
 </script></body></html>
