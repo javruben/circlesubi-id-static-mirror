@@ -1,0 +1,223 @@
+{
+ "id_labels": {
+  "Exchange with Circles": "Cara Kerja Circles",
+  "Monitoring": "Pemantauan",
+  "About Circles": "Tentang Circles",
+  "How Circles Works": "Bagaimana Circles Bekerja",
+  "When Can I use Circles": "Apa Circles Siap Digunakan",
+  "Social Welfare Impacts": "Dampak Kesejahteraan Sosial",
+  "Digital Transformations": "Transformasi Digital",
+  "Economic Impacts": "Dampak Ekonomi",
+  "Getting Started": "Memulai",
+  "My Account": "Akun Saya",
+  "Notifications": "Notifikasi",
+  "My Profile": "Profil Saya",
+  "Wallet": "Dompet",
+  "Market": "Pasar",
+  "Contacts": "Kontak",
+  "Chat": "Obrolan",
+  "Help/Support": "Bantuan/Dukungan",
+  "Tips for Users": "Tips untuk Pengguna",
+  "Tips for Vendors": "Tips untuk Vendor",
+  "Outreach Guide": "Panduan Lapangan",
+  "Troubleshooting": "Pemecahan masalah"
+ },
+ "id_translated": {
+  "Exchange with Circles": [
+   {
+    "q": "Bagaimana nilai Poin Circles ditentukan?",
+    "a": "Nilai 1 Poin Circles bisa disetarakan dengan 1 pisang.Namun, nilai setiap Poin Circles individu dapat ditentukan pada saat pertukaran, atau ditentukan bersama dalam komunitas."
+   },
+   {
+    "q": "Bisakah Poin Circles ditukar atau dinilai sebagai mata uang?",
+    "a": "Tidak. Circles bukanlah uang atau mata uang. Poin Circles tidak dapat ditukarkan dengan mata uang apapun. Poin Circles dirancang sebagai sumber daya tambahan untuk memfasilitasi pertukaran barang/jasa untuk mendukung masyarakat dalam memenuhi kebutuhan sehari-hari. Poin Circles hanya dapat digunakan oleh pengguna Circles, dan transaksi Poin Circles didasarkan pada nilai-nilai saling tolong menolong dan saling percaya."
+   },
+   {
+    "q": "Bagaimana cara menukar barang atau jasa menggunakan Circles?",
+    "a": "Pengguna aplikasi Circles dapat menukarkan barang/jasa dengan Poin Circles atau kombinasi antara Poin Circles dan uang tunai. Nilai barang/jasa ditentukan oleh pengguna yang terlibat dalam pertukaran. Sebagai contoh, Anda bisa sepakat untuk memberikan 10 Poin Circles atau kombinasi 5 Poin Circles dengan Rp5.000 untuk semangkuk bubur. Anda juga bisa terus bernegosiasi dengan pengguna yang Anda ajak bertukar untuk menentukan nilai pertukaran hingga mencapai kesepakatan bersama."
+   },
+   {
+    "q": "Bisakah pengguna Circles hanya menukar Poin Circles dengan pengguna Circles lainnya?",
+    "a": "Pengguna Circles hanya dapat bertukar Poin Circles dengan orang lain yang menggunakan aplikasi Circles."
+   },
+   {
+    "q": "Mengapa saya tidak dapat menukar Poin Circles saya dengan seseorang?",
+    "a": "Sebelum Anda dapat bertukar Poin Circles dengan seseorang, Anda harus saling percaya di Aplikasi Circles."
+   },
+   {
+    "q": "Saya telah terdaftar sebagai pengguna, tetapi belum melakukan aktivitas apapun, apa yang harus saya lakukan?",
+    "a": "Jika Anda adalah pengguna Aplikasi Circles tetapi tidak pernah menggunakan Aplikasi, baik Anda maupun komunitas Anda tidak akan mendapat manfaat dari Circles! Jadi, pastikan Anda menggunakan Poin Circles sesering mungkin!"
+   },
+   {
+    "q": "Dapatkah saya menggunakan Poin Circles saya di luar desa saya?",
+    "a": "Secara teknis, Anda dapat menggunakan Poin Circles Anda untuk bertransaksi dengan pengguna Circles mana pun di mana pun, namun jika mereka jauh dari Anda, hal itu dapat mempersulit pertukaran barang atau jasa."
+   },
+   {
+    "q": "Jika pihak-pihak yang bertukar tidak dapat menyepakati nilai pertukaran, apa yang terjadi?",
+    "a": "Penukaran barang atau jasa untuk Poin Circles hanya berfungsi jika ada kesepakatan antara pihak yang bertukar mengenai persyaratan pertukaran. Anda dapat terus bernegosiasi hingga mencapai kesepakatan bersama."
+   },
+   {
+    "q": "Siapa yang menentukan nilai Poin Circles?",
+    "a": "Nilai Poin Circles ditentukan melalui kesepakatan antara orang yang melakukan pertukaran. Nilai yang ditentukan didasarkan pada prinsip saling mendukung dan percaya."
+   },
+   {
+    "q": "Dapatkah Circles memberikan dampak sosial yang positif? Bagaimana caranya?",
+    "a": "Ya! Circles memiliki banyak manfaat bagi kesejahteraan masyarakat, antara lain: Mendukung barang dan jasa yang diproduksi secara lokal Partisipasi ekonomi untuk semua (termasuk orang yang rentan) Membantu keluarga & komunitas memenuhi kebutuhan harian mereka Meningkatkan strategi kerja sama dalam komunitas Mendukung transparansi & tata kelola yang baik Membantu kesejahteraan sosial tanpa biaya Meningkatkan akses pasar untuk usaha mikro Meningkatkan jaminan sosial berbasis komunitas Mendukung literasi digital Membantu pengusaha mikro & kecil berkembang Pemberdayaan perempuan Mendemonstrasikan strategi UBI yang hemat biaya untuk Indonesia Mendorong pertumbuhan ekonomi lokal"
+   },
+   {
+    "q": "Apakah Circles membantu anggota komunitas untuk saling bertukar barang?",
+    "a": "Ya. Circles menyediakan fasilitas pendukung dalam bentuk Poin Circles untuk meningkatkan pertukaran barang/jasa dalam komunitas lokal Anda. Setiap harinya, aplikasi Circles akan memberikan 24 poin kepada setiap pengguna. Poin ini diberikan dengan tujuan sebagai sumber daya tambahan yang dapat digunakan untuk meningkatkan pemenuhan kebutuhan sehari-hari. Pengguna dapat menukarkan Poin Circles dengan barang/jasa dengan pengguna lain berdasarkan kesepakatan bersama."
+   },
+   {
+    "q": "Apakah Circles dapat membantu memenuhi kebutuhan harian keluarga?",
+    "a": "Ya, Circles dapat membantu pengguna memenuhi kebutuhan sehari-hari keluarganya dengan menukar Poin Circles dengan barang/jasa dengan pengguna lain berdasarkan kesepakatan bersama."
+   },
+   {
+    "q": "Dapatkah Circles membantu pendidikan anak-anak saya?",
+    "a": "Circles dapat membantu pengguna dalam memenuhi kebutuhan pendidikan anak-anak mereka dengan menyediakan sumber daya tambahan dalam bentuk Poin Circles. Pengguna dapat menukarkan Poin Circles dengan jasa, seperti guru les privat dengan pengguna Circles lain yang menyediakan jasa tersebut."
+   },
+   {
+    "q": "Dapatkah Circles membantu saya mempelajari hal-hal baru?",
+    "a": "Sebagai inovasi teknologi pertama dari penerapan Universal Basic Income (UBI) tanpa uang tunai dalam bentuk Poin Digital, Circles menawarkan kesempatan untuk mendapatkan pengalaman baru. Dengan menggunakan aplikasi Circles, pengguna akan dihadapkan pada berbagai konsep menarik yang menggabungkan kemajuan teknologi dengan kearifan lokal. Misalnya, pengguna akan mempelajari bagaimana teknologi blockchain dapat digunakan untuk mendukung semangat gotong royong dan berbagi dengan menghasilkan Poin Circles yang dapat digunakan oleh pengguna untuk mendukung pertumbuhan ekonomi lokal mereka."
+   },
+   {
+    "q": "Saya tidak memiliki Poin Circles yang cukup untuk transaksi yang ingin saya lakukan. Bisakah saya menggunakan kombinasi Poin Circles & Rupiah?",
+    "a": "Ya, selain menukarkan barang/jasa dengan Poin Circles, pengguna juga dapat menggunakan kombinasi Poin Circles dan uang tunai untuk menukarkan barang atau jasa dengan pengguna lain. Namun, penting untuk dipahami bahwa metode yang digunakan dan nilai pertukaran didasarkan pada kesepakatan bersama antara pengguna yang terlibat."
+   },
+   {
+    "q": "Siapa saja yang dapat bertransaksi menggunakan Poin Circles?",
+    "a": "Semua pengguna aplikasi Circles dapat bertransaksi menggunakan Poin Circles."
+   },
+   {
+    "q": "Berapa banyak Poin Circles yang Anda dapatkan setiap hari?",
+    "a": "Setiap pengguna akan menerima 24 Poin Circles setiap hari."
+   }
+  ]
+ },
+ "page_cats": {
+  "circles-research-faq/content.html": [
+   "Exchange with Circles",
+   "Monitoring",
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts",
+   "Getting Started",
+   "My Account",
+   "Notifications",
+   "My Profile",
+   "Wallet",
+   "Market",
+   "Contacts",
+   "Chat",
+   "Help/Support",
+   "Tips for Users",
+   "Tips for Vendors",
+   "Outreach Guide",
+   "Troubleshooting"
+  ],
+  "circles-research-faq/content-mobile.html": [
+   "Exchange with Circles",
+   "Monitoring",
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts",
+   "Getting Started",
+   "My Account",
+   "Notifications",
+   "My Profile",
+   "Wallet",
+   "Market",
+   "Contacts",
+   "Chat",
+   "Help/Support",
+   "Tips for Users",
+   "Tips for Vendors",
+   "Outreach Guide",
+   "Troubleshooting"
+  ],
+  "copy-of-faq-1/index.html": [
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts"
+  ],
+  "copy-of-faq-1/m/index.html": [
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts"
+  ],
+  "id/circles-research-faq/content.html": [
+   "Exchange with Circles",
+   "Monitoring",
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts",
+   "Getting Started",
+   "My Account",
+   "Notifications",
+   "My Profile",
+   "Wallet",
+   "Market",
+   "Contacts",
+   "Chat",
+   "Help/Support",
+   "Tips for Users",
+   "Tips for Vendors",
+   "Outreach Guide",
+   "Troubleshooting"
+  ],
+  "id/circles-research-faq/content-mobile.html": [
+   "Exchange with Circles",
+   "Monitoring",
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts",
+   "Getting Started",
+   "My Account",
+   "Notifications",
+   "My Profile",
+   "Wallet",
+   "Market",
+   "Contacts",
+   "Chat",
+   "Help/Support",
+   "Tips for Users",
+   "Tips for Vendors",
+   "Outreach Guide",
+   "Troubleshooting"
+  ],
+  "id/copy-of-faq-1/index.html": [
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts"
+  ],
+  "id/copy-of-faq-1/m/index.html": [
+   "About Circles",
+   "How Circles Works",
+   "When Can I use Circles",
+   "Social Welfare Impacts",
+   "Digital Transformations",
+   "Economic Impacts"
+  ]
+ }
+}
